@@ -1,0 +1,33 @@
+{
+  "name": "flipkart-clone-backend",
+  "version": "1.0.0",
+  "description": "flipkart clone api built using nodejs, mongodb",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejesh-kumar/flipkart-clone-backend.git"
+  },
+  "author": "tejesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tejesh-kumar/flipkart-clone-backend/issues"
+  },
+  "homepage": "https://github.com/tejesh-kumar/flipkart-clone-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "express": "^4.18.1",
+    "http-errors": "^2.0.0",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "2.7.1"
+  }
+}
